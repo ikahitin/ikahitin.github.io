@@ -1,0 +1,123 @@
+@media only screen and (max-width : 1120px) {
+	.word{
+		display: none;
+	}
+	body{
+		max-width: 100%;
+	}
+	.inner-port, .contact{
+		width: 100%;
+	}
+	.contact{
+		background-color: #1a1a1a;
+	}
+	.block{
+		display: flex;
+		justify-content: center;
+	}
+	.screen{
+		width: 100%;
+	}
+	.port{
+		height: auto;
+		overflow: visible;
+	}
+	.line{
+		justify-content: center;
+	}
+	.soc{
+		margin-top: 0;
+	}
+	.info{
+		display: none;
+	}
+	.info-mob{
+		display: flex;
+	}
+	.form{
+		margin: 30px 0;
+	}
+	.form, form{
+		width: 95%;
+		margin: auto;
+	}
+	.info-b, .info-mob, .form, form{
+		min-width: auto;
+	}
+	body{
+		font-size: 95px;
+	}
+	.hd{
+		margin: 20px 0;
+	}
+	.info-b{
+		height: auto;
+		margin: 40px 0;
+	}
+	.marg{
+		margin: 25px 0;
+		margin-bottom: 40px;
+	}
+	.hor{
+		margin-bottom: 50px;
+	}
+	.container{
+		width: auto;
+	}
+	.aboutme{
+		padding-top: 40px;
+	}
+	.name, .skills{
+		flex-wrap: wrap;
+	}
+	.mynameis{
+		width: 100%;
+	}
+	.frontend, .backend{
+		width: 100%;
+	}
+	.info-b{
+		width: auto;
+	}
+	.screenlogo{
+		width: 100%;
+	}
+	.inner-port, .container{
+		width: 87%;
+	}
+	.name{
+		padding-bottom: 15px;
+	}
+	.form{
+		order: 2;
+		padding-bottom: 40px;
+	}
+	.info-mob{
+		order: 1;
+		padding-bottom: 25px;
+	}
+	.all .info-b{
+		margin: 15px 0;
+	}
+	.all{
+		padding: 0;
+	}
+	.un{
+		padding: 30px 0;
+	}
+}
+
+@media (min-width : 600px) and (max-width : 1120px) {
+	.frontend, .backend{
+		width: 50%;
+	}
+	.info-b{
+		width: 43%;
+	}
+	.block {
+		justify-content: space-around;
+	}
+	.form{
+		width: 70%;
+	}
+}

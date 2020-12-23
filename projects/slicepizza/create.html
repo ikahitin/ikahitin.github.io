@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+	<link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#212121">
+	<link rel="shortcut icon" href="favicon/favicon.ico">
+	<meta name="msapplication-TileColor" content="#212121">
+	<meta name="msapplication-config" content="favicon/browserconfig.xml">
+	<meta name="theme-color" content="#212121">
+
+
+	<meta charset="UTF-8">
+	<title>Create pizza</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Monda" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="style/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="navmenu">
+		<a href="create.html"><div class="line btb">
+			<p>Create pizza</p>
+		</div></a>
+		<a href="about.html"><div class="line bt">
+			<p>About</p>
+		</div></a>
+	</div>
+	<header>
+		<ul>
+			<a href="index.html"><li><img src="img/logontxt.png" alt=""></li></a>
+			<a href="index.html" class="hov hide"><li>HOME</li></a>
+			<a href="create.html" class="hov hide"><li>CREATE PIZZA</li></a>
+			<a href="about.html" class="hov hide"><li>ABOUT</li></a>
+			<li class="nav"><a href="#" id="showHideContent"><img src="img/ic_menu_48px.png" alt="" class="bars"></a></li>
+		</ul>
+	</header>
+	<div id="container" class="fww">
+		<div class="pizza">
+			
+			<img src="img/tomato.png" alt="tomato" class="pi" id="tomat">
+			<img src="img/basil.png" alt="basil" class="pi" id="basil">
+			<img src="img/mush.png" alt="mushroom" class="pi" id="mush">
+			<img src="img/onion.png" alt="" class="pi" id="onio">
+			<img src="img/olives.png" alt="" class="pi" id="oliv">
+			<img src="img/pepper.png" alt="" class="pi" id="pep">
+			<img src="img/bacon.png" alt="" class="pi" id="bac">
+			<img src="img/saliami.png" alt="" class="pi" id="sal">
+			<img src="img/emptypizza.png" alt="" class="epizza">
+		</div>
+		<div class="tools">
+			<div class="size">
+				<label for="n25"><input type='radio' name='psize' id='n25' price='5' checked><div class="num tf">25 cm</div></label>
+				<label for="n30"><input type='radio' name='psize' price='8' id='n30' ><div class="num th">30 cm</div></label>
+				<label for="n35"><input type='radio' name='psize' id='n35' price='12'><div class="num tv">35 cm</div></label>
+			</div>
+			<div class="cheese">
+				<label for="moz"><input type='radio' name='typeche' id='moz' price='5' checked><div class="num mo">Mozarella</div></label>
+				<label for="prov"><input type='radio' name='typeche' price='8' id='prov' ><div class="num pr">Provolone</div></label>
+				<label for="ched"><input type='radio' name='typeche' id='ched' price='12'><div class="num ch">Cheddar</div></label>
+				<label for="parm"><input type='radio' name='typeche' id='parm' price='16'><div class="num pa">Parmesan</div></label>
+			</div>
+			<div class="ingr">
+				<div class="column">
+					<div class='butt' on-off='off' price='1' id="but"><div id="button"></div>Tomatoes</div>
+					<div class='butt' on-off='off' price='2' id="but2"><div id="button2"></div>Olives</div>
+				</div>
+				<div class="column">
+					<div class='butt' on-off='off' price='6' id="but4"><div id="button4"></div>Saliami</div>
+					<div class='butt' on-off='off' price='20' id="but3"><div id="button3"></div>Mushroom</div>
+				</div>
+				<div class="column">
+					<div class='butt' on-off='off' price='2' id="but7"><div id="button7"></div>Basil</div>
+					<div class='butt' on-off='off' price='1' id="but8"><div id="button8"></div>Pepper</div>
+				</div>	
+				<div class="column"><div class='butt' on-off='off' price='2' id="but5"><div id="button5"></div>Onion</div>
+				<div class='butt' on-off='off' price='6' id="but10"><div id="button10"></div>Bacon</div>
+			</div>
+		</div>
+		<div id="price">
+			<span id="pr"></span>
+			<button class="custom-btn btn-12" id="myBtn">Buy it</button>
+		</div>
+	</div>
+</div>
+<script src="script/script.js"></script>
+</body>
+</html>

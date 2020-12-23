@@ -1,0 +1,112 @@
+@media only screen and (max-width : 1000px) {
+	.nav{
+		display: block;
+		padding-right: 0;
+		margin-right: 15px;
+		font-size: 23px;
+		z-index: 999;
+	}
+	.hide{
+		display: none;
+	}
+	header{
+		position: fixed;
+		background-color: #2f2e2e;
+		top: 0;
+		z-index: 999;
+	}
+	ul{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		padding: 0!important;
+	}
+	#container{
+		margin-top: 100px;
+	}
+	.logomob{
+		display: block;
+		width: 100%;
+	}
+	.logo{
+		display: none;
+	}
+	.fww{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.info{
+		width: 100%;
+	}
+	.info p {
+		padding-left: 0;
+	}
+	.abb {
+		padding: 0;
+	}
+	.pizza{
+		width: 100%;
+	}
+	.tools{
+		width: 100%;
+		justify-content: center;
+	}
+	.cheese{
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+		border: 0;
+	}
+	.mo, .pr, .ch, .pa{
+		width: 70%;
+		margin:10px auto;
+	}
+	.cheese label{
+		width: 50%;
+	}
+	.size{
+		margin-top: 50px;
+	}
+	.feature{
+		display: block;
+	}
+	.half-1{
+		width: 100%;
+		display: none;
+	}
+	.ingr{
+		margin-left: 50px;
+	}
+	.half{
+		width: 100%;
+		-webkit-flex-wrap: wrap;
+		-moz-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		-o-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.what{
+		width: 100%;
+	}
+	.arrow{
+		display: none;
+	}
+	#container{
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.what .pizza{
+		display: block;
+	}
+	#price{
+		justify-content: center;
+	}
+}
